@@ -1,5 +1,6 @@
+from random import Random
 # Generate a hidden number between 1 and 20
-secret_number = 7
+secret_number = Random().randint(1, 20)
 while True:
  min_attempt= 0
  max_attempt= 5
