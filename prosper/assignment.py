@@ -1,5 +1,6 @@
 # Generate a hidden number between 1 and 20
 secret_number = 7
+
 while True:
  min_attempt= 0
  max_attempt= 5
@@ -9,8 +10,10 @@ while True:
  print(f"You have a total of {max_attempt} attempts. Goodluck...!\n")
  print("Clue: the secret number is a prime number.\n")
 
+ guesses = []
  while min_attempt < max_attempt:
   guess_num= int(input("Enter a number: "))
+  guesses.append(guess_num)
   min_attempt +=1
   
   
@@ -27,6 +30,7 @@ while True:
  if min_attempt==max_attempt:
   print("Game over...! You have used up your chances.\n")
 
+ print("Numbers guessed are: ", guesses)
 
  # To continue the game
  choice=input("Do you want to continue? (Yes or No): ").capitalize()
