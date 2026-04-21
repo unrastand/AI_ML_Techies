@@ -22,7 +22,7 @@ def checkEven(num):
     if num/2 ==0:
         return True
     else:
-        return false
+        return False
     
 
 num1 = float(input("Enter the first number: "))
