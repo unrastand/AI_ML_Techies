@@ -9,13 +9,14 @@ def multiplication (a,b):
 
 def division (a,b):
 	if b == 0:
-		print(f"Error: {a} is not divisible by {b}")
+		return(f"Error: {a} is not divisible by {b}")
+	
 	return a / b
 
 start = True
 while start:
 	print ("Simple Calculation")
-	print("1. Add")
+	print("1. Addition")
 	print("2. Subtraction")
 	print("3. Multiplication")
 	print("4. Division")
@@ -41,8 +42,11 @@ while start:
 		if end == "yes":	
 			start = False
 			print("Exiting the program")
-		else:
+		if end == "no":
 			continue
+		else:
+			print("Invalid input. Exiting")
+			break
 		 
 
 
