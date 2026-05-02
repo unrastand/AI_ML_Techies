@@ -1,4 +1,4 @@
-# Question 1 - 4 and 7
+# Questions 1 - 4 and 7
 import numpy as np
 
 #Array Creation
@@ -29,7 +29,7 @@ print(multiplied_array)
 
 cal_mean = np.mean(reshape_2D)
 cal_median = np.median(reshape_2D)
-cal_SD = np.standard_deviation(reshape_2D)
+cal_SD = np.std(reshape_2D)
 
 print("\nMean of the 2D array is:", cal_mean)
 print("\nMedian of the 2D array is:", cal_median)
