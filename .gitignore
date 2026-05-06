@@ -4,3 +4,5 @@ new_folder/new.py
 .vscode/
 __pycache__/
 Israel/*
+*.csv
+*.json
