@@ -1,0 +1,22 @@
+Date,Order_ID,Customer_Name,Product,Category,Region,Salesperson,Units_Sold,Unit_Price,Discount,Total_Sales,Payment_Method,Status
+2026-02-01,ORD2001,John Smith,Laptop,Electronics,North,Amina Bello,2,850,0.05,1615,Card,Completed
+2026-02-02,ORD2002,,Mouse,Electronics,West,David Cole,5,25,,125,Cash,Completed
+2026/02/03,ORD2003,Michael Lee,Desk Chair,Furniture,South,,1,180,0.10,162,Transfer,Completed
+2026-02-04,ORD2004,Grace Kim,Notebook,Stationery,East,James Obi,12,4,0,48,Card,
+2026-02-05,ORD2005,Daniel Brown,???Phone???,Electronics,North,Amina Bello,three,420,0.08,1159.2,Card,Completed
+,ORD2006,Emily Stone,Printer,Electronics,West,David Cole,1,250,0,250,Cash,Pending
+2026-02-07,ORD2007,Chris Evans,Table,Furnitures,South,Fatima Musa,2,220,0.05,418,Transfer,Completed
+2026-02-08,ORD2008,Olivia White,Pen Pack,Stationery,East,James Obi,20,3,0,sixty,Card,Completed
+2026-02-09,ORD2009,Henry Ford,Monitor,Electronics,North,Amina Bello,2,190,-0.07,353.4,Card,Completed
+2026-02-10,ORD2010,Nina Patel,Bookshelf,Furniture,West,David Cole,,140,0.05,133,Cash,Completed
+2026-02-11,ORD2011,Liam Scott,Keyboard,Electronics,South,Fatima Musa,4,45,0,180,Bitcoin,Completed
+2026-02-12,ORD2012,Sophia Green,Stapler,Stationery,East,James Obi,8,6,0,48,Card,Cancelled
+2026-13-13,ORD2013,Noah King,Tablet,Electronics,North,Amina Bello,2,320,0.03,620.8,Card,Completed
+2026-02-14,ORD2014,Ava Hill,Filing Cabinet,Furniture,West,David Cole,1,,0.10,234,Cash,Completed
+2026-02-15,ORD2015,Lucas Adams,Paper Ream,Stationery,South,Fatima Musa,15,6,0.05,85.5,,Completed
+2026-02-16,ORD2016,Mia Clark,Headphones,Electronics,East,James Obi,3,75,0,225,Card,Done
+2026-02-17,ORD2017,Ethan Young,Sofa,Furniture,North,Amina Bello,1,650,0.12,572,Card,Pending
+2026-02-18,ORD2018,Isabella Hall,Markers,Stationery,West,David Cole,10,5,0,50,Cash,Completed
+2026-02-19,ORD2019,James Allen,Smartwatch,Electronics,South,Fatima Musa,2,210,0.04,403.2,Transfer,Completed
+2026-02-20,ORD2020,Charlotte Baker,Cabinet,Furniture,East,James Obi,1,310,0.06,291.4,Card,Completed
+2026-02-21,ORD2021,Test User,12345,Unknown,Nowhere,No One,-5,9999,0.99,-999,Barter,???
