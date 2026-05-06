@@ -1,12 +1,18 @@
-name ="Israel"
-hobbies = ["football", "basketball", "tennis"]
+import numpy as np 
 
-#session 3 task answers
+mat_a = np.array([[1, 4, 3], [4, 5, 6], [7, 8, 9]])
+mat_b = np.array([[9, 4, 7], [6, 5, 4], [3, 2, 1]])
 
-list = [1, 2, 3, 4, 5]
+mat_c = mat_a + mat_b
 
-tuple = (1, 2, 3, 4, 5)
+new = np.arange(1,20,2)
 
-dictionary = {"name": "john", "age": 30, "city": "new york"}    
+zeros = np.zeros((4,4))
 
-set = {1, 2, 3, 4, 5}
+mat = np.array([[1, 2 ], [4, 5 ], [7, 8 ], [10, 11]])
+ 
+answer = np.dot(mat_a, mat_b)
+ 
+
+a = mat.sum(axis=0)
+print(a)
